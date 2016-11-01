@@ -1,0 +1,379 @@
+*,h1,h1,h3,h4,h5,h6,p,article,ul,li,dl,button,input,header,footer,nav {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	font: 12px 'Microsoft Yahei', sans-serif;
+}
+h2 {
+	font-size: 1.5em;
+	line-height: 1.7em;
+}
+ul,dl {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+button {
+	cursor: pointer;
+}
+.layout {
+	width: 980px;
+	margin: 0 auto;
+}
+.layout2 {
+	width: 700px;
+	margin: 0 auto;
+}
+.clearfix {
+	overflow: hidden;
+	_zoom: 1;
+}
+header {
+	background: #3991d0;
+	height: 117px;
+	box-shadow: 0px 1px 3px #666;
+}
+header .logo a {
+	float: left;
+	width: 300px;
+	height: 114px;
+	background: url(../img/logo.png) no-repeat left bottom;
+	text-indent: -1000px;
+}
+header .about {
+	float: right;
+	height: 114px;
+}
+header .alink {
+	color: #fff;
+	height: 35px;
+}
+header .alink a {
+	display: inline-block;
+	color: #fff;
+	border-left: 1px solid #fff;
+	padding: 0 10px;
+	margin-top: 15px;
+}
+header .alink a:link,
+header .alink a:visited {
+	color: #fff;
+}
+header .alink a:hover,
+header .alink a:active {
+	color: #f60;
+}
+.about .search {
+	margin: 24px auto;
+}
+.about .search input {
+	height: 29px;
+	width: 170px;
+	padding-right: 10px;
+	border: none;
+	font-family: 'Microsoft Yahei',sans-serif;
+}
+.about .search button {
+	height: 29px;
+	width: 60px;
+	font-size: 1.2em;
+	color: #fff;
+	border: none;
+	font-family: 'Microsoft Yahei',sans-serif;
+	background: #1873de;
+}
+.about .search button:hover {
+	background: #0a8dd1;
+}
+
+nav {
+	width: 100%;
+	border-top: 2px solid #fff;
+	background: #3991d0;
+	height: 35px;
+	top: 0;
+}
+nav ul li {
+	float: left;
+}
+nav ul li a {
+	display: inline-block;
+	color: #fff;
+	font-size: 1.2em;
+	line-height: 35px;
+	height: 35px;
+	padding: 0 24px;
+}
+nav ul li a:link,
+nav ul li a:visited, {
+	color: #fff;
+}
+nav ul li a:hover,
+nav ul li a:active {
+	color: #fff;
+	background: #1873de;
+}
+.main {
+	background: #f3f3f3;
+}
+.main .content {
+	width: 700px;
+	float: left;
+}
+.content article {
+	width: 680px;
+	height: 110px;
+	padding: 16px;
+	margin-top: 14px;
+	float: left;
+	color: #666;
+	border: 1px solid #dbdbdb;
+	border-radius: 2px;
+	background: #fff;
+}
+.content article img {
+	width: 136px;
+	height: 100px;
+	float: left;
+	padding: 4px;
+	border: 1px solid #dbdbdb;
+}
+.content article .article-a {
+	width: 520px;
+	height: 110px;
+	float: right;
+	line-height: 1.6em;
+}
+.article-a i {
+	color: #f60;
+	font-style: normal;
+}
+.article-a a:hover {
+	color: #f60;
+}
+.page {
+	width: 700px;
+	text-align: center;
+}
+.page a{
+	display: inline-block;
+	padding: 3px 8px;
+	border: 1px solid #666;
+	border-radius: 10px;
+	margin: 10px 0 0 5px;
+}
+.page a:link,
+.page a:visited {
+	color: #666;
+	border: 1px solid #666;
+}
+.page a:hover,
+.page a:active,
+.content .page .active {
+	color: #f60;
+	border: 1px solid #f60;
+}
+.main .sidebar {
+	width: 260px;
+	float: right;
+	margin-top: 14px;
+}
+.sidebar .attention {
+	background: #fff;
+	width: 245px;
+	height: 80px;
+	padding: 14px;
+	border: 1px solid #dbdbdb;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.attention .weibo li {
+	float: left;
+}
+.attention .weibo a {
+	width: 30px;
+	height: 30px;
+	text-indent: -1000px;
+	display: inline-block;
+	background: url(../img/contact.png) no-repeat;
+	margin: 0 10px 10px 0;
+	border-radius: 2px;
+}
+.attention .weibo .weibo-1 {
+	background-position: -5px -125px;
+}
+.attention .weibo .weibo-2 {
+	background-position: -5px -85px;
+}
+.attention .weibo .weibo-3 {
+	background-position: -5px -165px;
+}
+.attention .weibo .weibo-4 {
+	background-position: -5px -5px;
+}
+.attention .weibo .weibo-5 {
+	background-position: -5px -43px;
+}
+.attention .weibo .weibo-6 {
+	background-position: -5px -205px;
+}
+.subscribe {
+	margin-top: 10px;
+}
+.subscribe input {
+	width: 170px;
+	height: 28px;
+	border: 1px solid #dbdbdb;
+}
+.subscribe button {
+	width: 60px;
+	height: 30px;
+	border: 1px solid #dbdbdb;
+	background: #dbdbdb;
+}
+.news {
+	width: 275px;
+	background: #fff;
+	margin-bottom: 30px;
+}
+.news .nav li {
+    float: left;
+	text-align: center;
+}
+.news .nav a {
+	display: block;
+	width: 90px;
+	height: 30px;
+	font: bold 1.2em/30px "Microsoft Yahei";
+	color: #333;
+	border-right: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+	background: #e6e6e6;
+}
+.news .nav a:link,
+.news .nav a:visit {
+    color: #333;
+    background: #e6e6e6;
+}
+.news .nav a:hover,
+.news .nav a:active,
+.news .nav .active {
+    color: #fff;
+    background: #3991d0;
+}
+.news .title {
+	padding: 10px;
+}
+.news .title a{
+	width: 240px;
+	height: 28px;
+	display: block;
+	padding-left: 15px;
+	background: url(../img/newAirtl_icon.png) no-repeat 3px 50%;
+	line-height: 28px;
+	color: #333;
+	border-bottom: 1px dotted #ccc;
+	overflow: hidden;
+}
+.news .title a:link,
+.news .title a:visited {
+	color: #333;
+}
+.news .title a:hover,
+.news .title a:active {
+	color: #f60;
+}
+.flink {
+	height: 66px;
+	clear: both;
+	background: #fff;
+	text-align: center;
+}
+.flink ul {
+	display: inline-block;
+}
+.flink li {
+	float: left;
+	height: 66px;
+}
+.flink .flink-a {
+	font: bold 1.2em/66px "Microsoft Yahei";
+	color: #bc0808;	
+}
+.flink li a {
+	font: 1.2em/66px "Microsoft Yahei";
+	color: #333;
+	padding: 0 15px;
+}
+.flink li a:link,
+.flink li a:visited {
+	color: #333;
+}
+.flink li a:hover,
+.flink li a:active {
+	color: #f60;
+}
+footer {
+	background: #3991d0;
+	color: #fff;
+	font-size: 1.2em;
+	padding: 25px 0;
+}
+footer .maplink {
+	margin-bottom: 20px;
+}
+footer .maplink li {
+	float: left;
+}
+.maplink li a {
+	display: block;
+	padding: 6px 20px 6px 30px;
+}
+.maplink-1 {
+	background: url(../img/ft_nav.png) no-repeat 0 1px;
+}
+.maplink-2 {
+	background: url(../img/ft_nav.png) no-repeat 0 -28px;
+}
+.maplink-3 {
+	background: url(../img/ft_nav.png) no-repeat 0 -58px;
+}
+.maplink-4 {
+	background: url(../img/ft_nav.png) no-repeat 0 -88px;
+}
+.maplink li a:link,
+.maplink li a:visited {
+	color: #fff;
+}
+.maplink li a:hover,
+.maplink li a:active {
+	color: #f60;
+}
+footer .maplink p {
+	clear: both;
+}
+.content .loading {
+	background: url(../img/loading.gif) center center no-repeat;
+	background-size: 80px 80px;
+}
+
+#to-top {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	width: 50px;
+	height: 50px;
+	color: #fff;
+	font-size: 18px;
+	border: 2px solid #999;
+	border-radius: 10px;
+	background: #ccc;
+	text-align: center;
+	cursor: pointer;
+	display: none;
+}
+#to-top:hover {
+	background: #999;
+}
