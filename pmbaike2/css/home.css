@@ -1,0 +1,419 @@
+
+/* reset */
+body,h1,h2,h3,h4,h5,h6,p,article,ul,li,dl,button,input,header,footer,nav {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	font: 12px 'Microsoft Yahei', sans-serif;
+}
+h2 {
+	font-size: 1.5em;
+	line-height: 1.7em;
+}
+ul,dl {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+button {
+	cursor: pointer;
+}
+/* reset end*/
+
+/* layout */
+.layout {
+	width: 980px;
+	margin: 0 auto;
+}
+.layout2 {
+	width: 700px;
+	margin: 0 auto;
+}
+.clearfix:before,
+.clearfix:after { 
+    content:""; 
+    display:table; 
+} 
+.clearfix:after {
+	clear:both;
+} 
+.clearfix { 
+    *zoom:1;/*IE/7/6*/
+}
+/* layout end */
+
+/* header */
+header {
+	height: 117px;
+	min-width: 980px;
+	box-shadow: 0px 1px 3px #666;
+	background: #3991d0;
+}
+header .logo a {
+	float: left;
+	width: 300px;
+	height: 114px;
+	text-indent: -1000px;
+	background: url(../img/logo.png) no-repeat left bottom;
+}
+header .about {
+	float: right;
+	height: 114px;
+}
+header .alink {
+	color: #fff;
+	height: 35px;
+}
+header .alink a {
+	display: inline-block;
+	padding: 0 10px;
+	margin-top: 15px;
+	border-left: 1px solid #fff;
+	color: #fff;
+}
+header .alink a:link,
+header .alink a:visited {
+	color: #fff;
+}
+header .alink a:hover,
+header .alink a:active {
+	color: #f60;
+}
+.about .search {
+	margin: 24px auto;
+}
+.about .search input {
+	height: 29px;
+	width: 170px;
+	padding-right: 10px;
+	border: none;
+}
+.about .search button {
+	height: 29px;
+	width: 60px;
+	border: none;
+	font-size: 1.2em;
+	color: #fff;
+	background: #1873de;
+}
+.about .search button:hover {
+	background: #0a8dd1;
+}
+
+/* nav */
+nav {
+	top: 0;
+	height: 35px;
+	width: 100%;
+	min-width: 980px;
+	border-top: 2px solid #fff;
+	background: #3991d0;
+}
+nav ul li {
+	float: left;
+}
+nav ul li a {
+	display: inline-block;
+	height: 35px;
+	padding: 0 24px;
+	font-size: 1.2em;
+	line-height: 35px;
+	color: #fff;
+}
+nav ul li a:link,
+nav ul li a:visited, {
+	color: #fff;
+}
+nav ul li a:hover,
+nav ul li a:active {
+	color: #fff;
+	background: #1873de;
+}
+/* nav end */
+
+/* main */
+.main {
+	padding-bottom: 10px;
+	min-width: 980px;
+	background: #f3f3f3;
+}
+.main .content {
+	float: left;
+	width: 700px;
+}
+.content article {
+	float: left;
+	width: 670px;
+	height: 110px;
+	padding: 14px;
+	margin-top: 14px;
+	border: 1px solid #dbdbdb;
+	border-radius: 2px;
+	color: #666;
+	background: #fff;
+}
+.content article img {
+	float: left;
+	width: 136px;
+	height: 100px;
+	padding: 4px;
+	border: 1px solid #dbdbdb;
+}
+.content article .article-a {
+	float: right;
+	overflow: hidden;
+	width: 510px;
+	height: 110px;
+	line-height: 1.6em;
+}
+.article-a i {
+	font-style: normal;
+	color: #f60;
+}
+.article-a a:hover {
+	color: #f60;
+}
+.page {
+	width: 700px;
+	text-align: center;
+}
+.page a{
+	display: inline-block;
+	margin: 10px 0 0 5px;
+	padding: 3px 8px;
+	border: 1px solid #666;
+	border-radius: 10px;
+}
+.page a:link,
+.page a:visited {
+	border: 1px solid #666;
+	color: #666;
+}
+.page a:hover,
+.page a:active,
+.content .page .active {
+	border: 1px solid #f60;
+	color: #f60;
+}
+.main .sidebar {
+	float: right;
+	width: 275px;
+	margin-top: 14px;
+}
+.sidebar .ad {
+	margin: 0 auto 10px auto;
+	text-align: center;
+}
+.sidebar .ad img{
+	width: 250px;
+	height: 250px;
+}
+.sidebar .attention {
+	width: 245px;
+	height: 80px;
+	padding: 14px;
+	margin-bottom: 10px;
+	border: 1px solid #dbdbdb;
+	border-radius: 5px;
+	background: #fff;
+}
+.attention .weibo li {
+	float: left;
+}
+.attention .weibo a {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 0 10px 10px 0;
+	text-indent: -9999px;
+	border-radius: 2px;
+	background: url(../img/contact.png) no-repeat;
+}
+.attention .weibo .weibo-1 {
+	background-position: -5px -125px;
+}
+.attention .weibo .weibo-2 {
+	background-position: -5px -85px;
+}
+.attention .weibo .weibo-3 {
+	background-position: -5px -165px;
+}
+.attention .weibo .weibo-4 {
+	background-position: -5px -5px;
+}
+.attention .weibo .weibo-5 {
+	background-position: -5px -43px;
+}
+.attention .weibo .weibo-6 {
+	background-position: -5px -205px;
+}
+.subscribe {
+	margin-top: 10px;
+}
+.subscribe input {
+	width: 170px;
+	height: 28px;
+	border: 1px solid #dbdbdb;
+}
+.subscribe button {
+	width: 60px;
+	height: 30px;
+	border: 1px solid #dbdbdb;
+	background: #dbdbdb;
+}
+.news {
+	width: 275px;
+	margin-bottom: 30px;
+	background: #fff;
+}
+.news .nav li {
+    float: left;
+	width: 91px;
+	height: 30px;
+	text-align: center;
+	font: bold 1.2em/30px "Microsoft Yahei";
+	color: #333;
+	background: #e6e6e6;
+	border-right: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+	cursor: pointer;
+}
+.news .nav li:last-child {
+	border-right: none;
+}
+.news .nav li:hover,
+.news .nav li.active {
+    color: #fff;
+    background: #3991d0;
+}
+.news .panel.active {
+	display: block;
+	padding: 10px;
+}
+.news .panel {
+	display: none;
+}
+.news .panel a{
+	display: block;
+	overflow: hidden;
+	width: 240px;
+	height: 28px;
+	padding-left: 15px;
+	border-bottom: 1px dotted #ccc;
+	text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    white-space: nowrap;
+	line-height: 28px;
+	color: #333;
+	background: url(../img/newAirtl_icon.png) no-repeat 3px 50%;
+}
+.news .panel a:link,
+.news .panel a:visited {
+	color: #333;
+}
+.news .panel a:hover,
+.news .panel a:active {
+	color: #f60;
+}
+/* main end */
+
+/* flink */
+.flink {
+	height: 66px;
+	clear: both;
+	background: #fff;
+	text-align: center;
+}
+.flink ul {
+	display: inline-block;
+}
+.flink li {
+	float: left;
+	height: 66px;
+}
+.flink .flink-a {
+	font: bold 1.2em/66px "Microsoft Yahei";
+	color: #bc0808;	
+}
+.flink li a {
+	font: 1.2em/66px "Microsoft Yahei";
+	color: #333;
+	padding: 0 15px;
+}
+.flink li a:link,
+.flink li a:visited {
+	color: #333;
+}
+.flink li a:hover,
+.flink li a:active {
+	color: #f60;
+}
+/* flink end */
+
+/* footer */
+footer {
+	min-width: 980px;
+	padding: 25px 0;
+	font-size: 1.2em;
+	color: #fff;
+	background: #3991d0;
+}
+footer .maplink {
+	margin-bottom: 20px;
+}
+footer .maplink li {
+	float: left;
+}
+.maplink li a {
+	display: block;
+	padding: 6px 20px 6px 30px;
+}
+.maplink-1 {
+	background: url(../img/ft_nav.png) no-repeat 0 1px;
+}
+.maplink-2 {
+	background: url(../img/ft_nav.png) no-repeat 0 -28px;
+}
+.maplink-3 {
+	background: url(../img/ft_nav.png) no-repeat 0 -58px;
+}
+.maplink-4 {
+	background: url(../img/ft_nav.png) no-repeat 0 -88px;
+}
+.maplink li a:link,
+.maplink li a:visited {
+	color: #fff;
+}
+.maplink li a:hover,
+.maplink li a:active {
+	color: #f60;
+}
+footer .maplink p {
+	clear: both;
+}
+.content .loading {
+	background: #fff url(../img/loading.gif) center center no-repeat;
+	background-size: 80px 80px;
+}
+
+#to-top {
+	position: fixed;
+	display: none;
+	right: 20px;
+	bottom: 20px;
+	width: 50px;
+	height: 50px;
+	border: 2px solid #999;
+	border-radius: 10px;
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+	background: #ccc;
+	cursor: pointer;
+}
+#to-top:hover {
+	background: #999;
+}
+
+/* footer end */
